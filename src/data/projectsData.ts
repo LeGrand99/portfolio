@@ -22,7 +22,7 @@ export const projectsFR: project[] = [
     name: "Site e-commerce de vente de montre",
     description:
       "Site web permettant aux utilisateurs de découvrir une collection de montres, consulter les fiches produits et ajouter des articles à un panier.",
-    linkDemo: "https://e-commerce-montre-wz9a.vercel.app/",
+    linkDemo: "https://e-commerce-montre.vercel.app/",
     tech: [{ name: "ReactJS" }, { name: "Redux" }, { name: "Tailwind CSS" }],
     category: "Web",
   },
