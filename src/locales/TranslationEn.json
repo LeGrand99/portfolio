@@ -1,0 +1,80 @@
+{
+    "en": "English",
+    "fr": "French",
+    "Navlink": {
+        "navlink1": "Home",
+        "navlink2": "Projects",
+        "navlink3": "Skills",
+        "navlink4": "Education",
+        "navlink5": "Contact"
+    },
+    "sectionTitle": {
+        "projects": "My Projects",
+        "skill": "Skills & Tools",
+        "education": "Education & Internship",
+        "contact": "Contact me"
+    },
+    "sectionDescription": {
+        "projects": "A selection of projects where I put my skills into practice.",
+        "skill": "Skills I’ve developed through my projects.",
+        "education": "My academic background complemented by a first professional experience.",
+        "contact": "Looking for someone motivated, reliable, and ready to commit? Get in touch!"
+    },
+    "softSkillsIntro": "Beyond technical skills, my strength also lies in my human qualities.",
+    "softSkills": {
+        "autonomy": "Autonomy",
+        "teamwork": "Teamwork",
+        "fastLearning": "Fast learning",
+        "problemSolving": "Analytical mindset",
+        "adaptability": "Adaptability",
+        "rigour": "Rigor"
+    },
+    "intro": "I build full web applications, from front-end to back-end. My goal is to take part in ambitious projects that support my professional development.",
+    "all": "All",
+    "send": "Send",
+    "download": "Download CV",
+    "viewProjects": "View my projects",
+    "contactMe": "Contact me",
+    "seeMore": "See more",
+    "internshipTitle": "Web Developer Intern",
+    "phone": "Phone",
+    "address": "Address",
+    "bachelorDegree": "Bachelor's in Computer Science and Telecommunications",
+    "allRightsReserved": "All rights reserved",
+    "codeQuote": "Every line of code is a step toward excellence.",
+    "masterOngoing": "Master's Degree in Computer Science and Telecommunications (in progress)",
+    "schoolName": "Higher Polytechnic Institute of Madagascar",
+    "savingsBank":"Savings Bank of Madagascar Antananarivo",
+    "degreeOption": "Computer Science, Applied Statistics, and Artificial Intelligence",
+    "Specialization": "Specialization",
+    "availability": "I am available for any discussion and would be happy to connect with you.",
+     "formPlaceholders": {
+      "name": "Your name",
+      "email": "Your.email@example.com",
+      "subject": "Subject",
+      "message": "Message..."
+    },
+    "keySubject": "Key Subjects",
+    "softwareEngineering": "Software Engineering",
+    "rna": "ANN", 
+    "dataStructures": "Data Structures and Algorithms",
+    "ai": "AI", 
+    "sending":"Sending message...",
+    "dbms": "DBMS", 
+    "statistics": "Statistics",
+    "economics": "Economics",
+    "networks": "Networks",
+    "mathematics": "Mathematics",
+    "webDeveloper": "Full-stack Web Developer",
+    "projectDescription": "Designed a web application in collaboration, enabling users to import CSV files containing financial transactions. The application automatically extracts the data, stores it in a relational database, and provides a user interface to visualize, filter, and analyze financial transactions.",
+    "toast": {
+    "success": "Message sent successfully",
+    "error_generic": "An error occurred, please try again.",
+    "server_error": "Server-side problem",
+    "no_response": "No response from the server, please check your connection.",
+    "axios_error": "Axios error",
+    "error": "Error"
+  }
+}
+
+

@@ -1,0 +1,82 @@
+{
+    "en": "Anglais",
+    "fr": "Français",
+    "Navlink":{
+        "navlink1": "Accueil",
+        "navlink2": "Projets",
+        "navlink3": "Compétences",
+        "navlink4": "Parcours",
+        "navlink5": "Contact"
+    },
+    "sectionTitle": {
+        "projects":"Mes Projets",
+        "skill": "Compétences & outils",
+        "education":"Formation & stage",
+        "contact": "Contactez-moi"
+    },
+    "sectionDescription":{
+        "projects":"Une sélection de projets sur lesquels j’ai mis en pratique mes compétences.",
+        "skill": "Des bases solides,ouvertes à de nouveaux défis",
+        "education":"Mon parcours, entre apprentissage théorique et première expérience concrète",
+        "contact": "Vous cherchez quelqu'un de motivé,sérieux et prêt à s'investir ? Contactez-moi !"
+    },
+    "softSkillsIntro": "Et parce que les outils ne font pas tout, pour collaborer, s’adapter et évoluer, voici mes atouts personnels :",
+    "softSkills":{
+      "autonomy": "Autonomie",
+      "teamwork": "Travail en équipe",
+      "fastLearning": "Apprentissage rapide",
+      "problemSolving": "Esprit d'analyse",
+      "adaptability": "Adaptabilité",
+      "rigour": "Rigueur"
+    },
+    "intro": "Je développe des applications web complètes, du front-end au back-end. Je vise à collaborer sur des projets ambitieux qui me permettront de progresser professionnellement.",
+    "all": "Tous",
+    "send":"Envoyer",
+    "download":"Télécharger CV",
+    "seeMore":"Voir plus",
+    "viewProjects": "Voir mes projets",
+    "contactMe": "Me contacter",
+    "internshipTitle": "Stagiaire développeur web",
+    "masterOngoing": "Master II en informatique et Télécommunication   (en cours)",
+    "phone":"Téléphone",
+    "address":"Adresse",
+    "bachelorDegree": "Licence en Informatique et Télécommunication",
+    "allRightsReserved": "Tous droits réservés",
+    "codeQuote": "Chaque ligne de code est une étape vers l'excellence.",
+    "schoolName": "Institut Supérieur Polytechnique de Madagascar (ISPM)",
+    "savingsBank":"Caisse d'Epargne de Madagascar Antananarivo",
+    "Specialization":"Spécialisation",
+    "degreeOption": "Informatique, Statistiques Appliquées et Intelligence Artificielle",
+    "availability": "Je suis à votre disposition pour toute discussion et serai heureux d'échanger avec vous.",
+    "formPlaceholders": {
+      "name": "Votre nom",
+      "email": "Votre.email@exemple.com",
+      "subject": "Sujet",
+      "message": "Message..."
+    },
+    "keySubject": "Domaines explorés",
+    "softwareEngineering": "Génie Logiciel",
+    "rna": "RNA",
+    "dataStructures": "Structures de données et Algorithmes",
+    "ai": "IA",
+    "dbms": "SGBD",
+    "statistics": "Statistiques",
+    "economics": "Économie",
+    "networks": "Réseaux",
+    "mathematics": "Mathématiques",
+    "sending":"Envoi en cours...",
+    "webDeveloper": "Développeur Web Fullstack",
+    "projectDescription": "Conception d’une application web en binôme permettant aux utilisateurs d’importer des fichiers CSV contenant des flux monétaires. L’application extrait automatiquement les données, les stocke dans une base de données relationnelle, et propose une interface utilisateur pour visualiser, filtrer et analyser les transactions financières.",
+    "toast": {
+    "success": "Message envoyé avec succès",
+    "error_generic": "Une erreur est survenue, veuillez réessayer.",
+    "server_error": "Problème côté serveur",
+    "no_response": "Aucun retour du serveur, vérifiez votre connexion.",
+    "axios_error": "Erreur Axios",
+    "error": "Erreur"
+  }
+}
+
+
+
+

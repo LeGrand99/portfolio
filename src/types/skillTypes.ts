@@ -3,13 +3,13 @@ export interface Skill {
   logo: string;
 }
 
-export interface SkillSubCategory {
-  subCategory: string;
-  skills: Skill[];
-}
+// export interface SkillSubCategory {
+//   subCategory: string;
+//   skills: Skill[];
+// }
 
-export interface SkillCategory {
-  category: string;
-  skills?: Skill[];
-  subCategories?: SkillSubCategory[];
-}
+// export interface SkillCategory {
+//   category: string;
+//   skills?: Skill[];
+//   subCategories?: SkillSubCategory[];
+// }
