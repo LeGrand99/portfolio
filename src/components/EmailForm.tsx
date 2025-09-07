@@ -54,7 +54,7 @@ function EmailForm() {
           message = `❌ ${t("toast.no_response")}`;
         } else {
           // Autre erreur Axios
-          message = `❌ ${t("toast.axios_error")} : ${error.message}` ;
+          message = `❌ ${t("toast.axios_error")} : ${error.message}`;
         }
       } else if (error instanceof Error) {
         // Autre type d'erreur JS
@@ -103,7 +103,8 @@ function EmailForm() {
         />
         <button
           type="submit"
-          className="btn-with-icon-base bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br "
+          className={`btn-with-icon-base bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br  ${loading ? "opacity-50 cursor-not-allowed" : ""}`}
+          disabled={loading}
         >
           {loading ? (
             `${t("sending")}`
