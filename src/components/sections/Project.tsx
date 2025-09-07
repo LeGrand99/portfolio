@@ -1,12 +1,14 @@
 import SectionHeader from "../SectionHeader";
 import ProjectCard from "../ProjectCard";
-import { projectsFR } from "e:/Projects/React/portfolio/src/data/projectsData";
-import { projectsEN } from "e:/Projects/React/portfolio/src/data/projectsData";
+import { projectsFR } from "../../data/projectsData";
+import { projectsEN } from "../../data/projectsData";
 import { TbBrightnessOff } from "react-icons/tb";
 import { TbBrightnessFilled } from "react-icons/tb";
 import { useState } from "react";
 import { Element } from "react-scroll";
 import { useTranslation } from "react-i18next";
+import type { project } from "../../types/projectTypes";
+ 
 
 function Project() {
   const { t, i18n } = useTranslation();
@@ -62,7 +64,7 @@ function Project() {
             className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-12 md:gap-5 lg:gap-10 mt-12"
             data-aos="fade-up"
           >
-            {visibleProjects.map((project) => (
+            {visibleProjects.map((project:project) => (
               <ProjectCard key={project.id} project={project} BnW={BlacknWhite} />
             ))}
           </div>
