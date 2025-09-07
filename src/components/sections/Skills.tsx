@@ -1,4 +1,4 @@
-import { skills } from "e:/Projects/React/portfolio/src/data/skillsData";
+import { skills } from "../../data/skillsData";
 import SkillCategories from "../SkillCategories";
 import { Element } from "react-scroll";
 import SectionHeader from "../SectionHeader";
