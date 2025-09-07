@@ -70,12 +70,15 @@ function Contact() {
           </div>
 
           <div className="flex  items-center justify-center ">
-            <ButtonWithIcon
-              value={`${t("download")} `}
-              iconPosition="left"
-              icon_size={20}
-              Icon={Download}
-            />
+            <a href="/soaviniavo_cv.pdf" download>
+              <ButtonWithIcon
+                value={`${t("download")}`}
+                icon_size={19}
+                Icon={Download}
+                color="red"
+                iconPosition="left"
+              />
+            </a>
           </div>
         </div>
       </div>

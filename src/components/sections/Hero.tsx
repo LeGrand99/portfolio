@@ -43,7 +43,7 @@ function Hero() {
               </a>
             ) : (
               <a href="https://github.com/soaviniavo" target="_blank" rel="noopener noreferrer">
-                <LuGithub className="w-9 h-9 text-white" />
+                <LuGithub className="w-9 h-9 text-white cursor-pointer transition transform hover:scale-110 duration-100" />
               </a>
             )}
             <a href="">
@@ -67,13 +67,15 @@ function Hero() {
             <Link to="contact" smooth={true} spy={true} duration={500} offset={-100}>
               <Button value={`${t("contactMe")}`} />
             </Link>
-            <ButtonWithIcon
-              value={`${t("download")}`}
-              icon_size={19}
-              Icon={Download}
-              color="red"
-              iconPosition="left"
-            />
+            <a href="/soaviniavo_cv.pdf" download>
+              <ButtonWithIcon
+                value={`${t("download")}`}
+                icon_size={19}
+                Icon={Download}
+                color="red"
+                iconPosition="left"
+              />
+            </a>
           </div>
         </div>
         <div className="relative w-[200px] h-[200px] md:mr-5 lg:mr-0 md:w-[220px] md:h-[220px] lg:w-[276px] lg:h-[276px]">
