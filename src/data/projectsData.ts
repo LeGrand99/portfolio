@@ -71,7 +71,7 @@ export const projectsEN: project[] = [
     name: "E-commerce Watch Sales Website",
     description:
       "Website allowing users to browse a watch collection, view product pages, and add items to a shopping cart.",
-    linkDemo: "http://ecommerce-montre.vercel.app",
+    linkDemo: "https://e-commerce-montre.vercel.app/",
     tech: [{ name: "ReactJS" }, { name: "Redux" }, { name: "Tailwind CSS" }],
     category: "Web",
   },
