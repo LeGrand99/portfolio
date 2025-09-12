@@ -8,7 +8,8 @@ import { useState } from "react";
 import { Element } from "react-scroll";
 import { useTranslation } from "react-i18next";
 import type { project } from "../../types/projectTypes";
- 
+import AOS from "aos"
+import { useEffect } from "react";
 
 function Project() {
   const { t, i18n } = useTranslation();
@@ -16,6 +17,7 @@ function Project() {
   const categories = [`${t("all")}`, "Web", "Mobile"];
   const [BlacknWhite, setBlacknWhite] = useState<boolean>(true);
   const [selectedCategory, setSelectedCategory] = useState<string>(`${t("all")}`);
+ 
   const visibleProjects = projects.filter((project) => {
     if (
       project.category !== selectedCategory &&
@@ -26,9 +28,13 @@ function Project() {
     }
     return true;
   });
+
+  useEffect(() => {
+    AOS.refresh()
+  },[visibleProjects]);
   return (
     <Element name="projects" className="dark:bg-gray-700">
-      <section className=" w-full sm:w-full  mt-7 md:mt-18 py-5 px-5 overflow-hidden  dark:bg-gray-900">
+      <section className=" w-full sm:w-full  mt-7 md:mt-18 py-5 px-5 overflow-hidden dark:bg-gray-900">
         <SectionHeader
           title={`${t("sectionTitle.projects")}`}
           shape="square"
@@ -62,7 +68,7 @@ function Project() {
           </div>
           <div
             className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-12 md:gap-5 lg:gap-10 mt-12"
-            
+            data-aos="fade-up"
           >
             {visibleProjects.map((project:project) => (
               <ProjectCard key={project.id} project={project} BnW={BlacknWhite} />
