@@ -46,7 +46,7 @@ function Hero() {
                 <LuGithub className="w-9 h-9 text-white cursor-pointer transition transform hover:scale-110 duration-100" />
               </a>
             )}
-            <a href="">
+            <a href="https://www.linkedin.com/in/soaviniavo-rakotonirina" target="_blank" rel="noopener noreferrer">
               <img
                 src={linkedin}
                 className="w-12 h-12  cursor-pointer transition transform hover:scale-110 duration-100"
@@ -67,7 +67,7 @@ function Hero() {
             <Link to="contact" smooth={true} spy={true} duration={500} offset={-100}>
               <Button value={`${t("contactMe")}`} />
             </Link>
-            <a href="/soaviniavo_cv.pdf" download>
+            <a href="/Soaviniavo-cv.pdf" download>
               <ButtonWithIcon
                 value={`${t("download")}`}
                 icon_size={19}

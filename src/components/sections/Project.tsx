@@ -28,7 +28,7 @@ function Project() {
   });
   return (
     <Element name="projects" className="dark:bg-gray-700">
-      <section className=" w-full sm:w-full  mt-7 md:mt-18 py-5 px-5 overflow-hidden dark:bg-gray-900">
+      <section className=" w-full sm:w-full  mt-7 md:mt-18 py-5 px-5 overflow-hidden bg-red-400 dark:bg-gray-900">
         <SectionHeader
           title={`${t("sectionTitle.projects")}`}
           shape="square"
@@ -62,7 +62,7 @@ function Project() {
           </div>
           <div
             className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-12 md:gap-5 lg:gap-10 mt-12"
-            data-aos="fade-up"
+            
           >
             {visibleProjects.map((project:project) => (
               <ProjectCard key={project.id} project={project} BnW={BlacknWhite} />

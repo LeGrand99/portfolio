@@ -65,12 +65,12 @@ function Contact() {
             <FiLinkedin className="contact-icon  w-6 h-6" />
             <div className="flex flex-col  md:gap-1">
               <span className="contact-info-title">LinkedIn</span>
-              <a className="contact-info-link">linkedin.com/in/soaviniavo-rakotonirina</a>
+              <a className="contact-info-link" href="https://www.linkedin.com/in/soaviniavo-rakotonirina" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/soaviniavo-rakotonirina</a>
             </div>
           </div>
 
           <div className="flex  items-center justify-center ">
-            <a href="/soaviniavo_cv.pdf" download>
+            <a href="/Soaviniavo-cv.pdf" download>
               <ButtonWithIcon
                 value={`${t("download")}`}
                 icon_size={19}
